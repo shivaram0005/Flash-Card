@@ -53,12 +53,8 @@ flashCardSave.addEventListener("click", ()=>{
 })
 
 deleteFlashCards.addEventListener("click", ()=> {
-    if(dummyDiv.remove() == ""){
-        alert("please add cards to delete")
-    }
-    else{
-        dummyDiv.remove();
-    }
+    dummyDiv.remove();
+    
     setTimeout(() => {
         let setTimeoutMessage = document.querySelector(".setTimeoutMessage");
         setTimeoutMessage.style.color = "red";
