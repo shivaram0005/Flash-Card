@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Card in Javascript</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>FlashCards</h1>
+        </div>
+        <div class="header-buttons">
+            <button class="create-card button">New Card</button>
+            <button class="delete-card button">Deletes Card</button>
+        </div>
+    </header>
+    <div class="flash-card-div">
+        <div class="flash-card-inside">
+            <h3>Create FlashCard</h3>
+            <label for="question">Question</label>
+            <textarea  id="question"></textarea>
+            <label for="answer">Answer</label>
+            <textarea name="" id="answer"></textarea>
+            <div class="flash-card-buttons">
+            <button class="flash-card-save-button   button">Save</button>
+            <button class="flash-card-close-button button">Close</button>
+            </div>
+        </div>
+    </div>
+    <div class="dummy-div">
+
+    </div>
+    <h5 class="setTimeoutMessage"></h5>
+
+
+    
+    <script src="./index.js"></script>
+</body>
+</html>
